@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#4fa881</color>
+    <color name="background">#FFCC00</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="error_color">#f0f7f4</color>
+    <color name="edit_text_color">#f0f7f4</color>
+    <color name="logintextColor">#c5c5c5</color>
+    <color name="loginedit">#2fa881</color>
+    <color name="button">#d3d3d3</color>
+    <color name="colorIndivateTab">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorCardView">#f7f7f7</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_500">#a4a4a4</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_800">#212121</color>
+</resources>

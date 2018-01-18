@@ -1,0 +1,160 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/logintextColor"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.effone.machinetest.view.Fragment.EditProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true"
+        android:layout_height="wrap_content">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:background="@color/background" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="50dp"
+            android:text="@string/menu_edit_profile"
+            android:textColor="@color/loginedit"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/logintextColor"
+        android:id="@+id/tv_error_userName">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            android:minLines="1"
+            android:maxLines="1"
+            android:textColor="@color/loginedit"
+            android:hint="Email"
+            android:id="@+id/et_email"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/logintextColor"
+            android:id="@+id/tv_error_password">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Password"
+                
+                android:singleLine="true"
+                android:inputType="textWebPassword"
+                android:textColor="@color/loginedit"
+                android:id="@+id/et_password"
+                />
+        </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/logintextColor"
+        android:id="@+id/tv_error_first_name">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/firstName"
+            
+            android:singleLine="true"
+            android:inputType="text"
+            android:textColor="@color/loginedit"
+            android:id="@+id/et_firstName"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:textColorHint="@color/logintextColor"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_error_last_name">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lastName"
+            android:singleLine="true"        
+            android:inputType="text"
+            android:textColor="@color/loginedit"
+            android:id="@+id/et_lastName"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:textColorHint="@color/logintextColor"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_error_phone_number">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"        
+            android:inputType="number"
+            android:textColor="@color/loginedit"
+            android:hint="@string/phone"
+            android:id="@+id/et_phone_number"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/logintextColor"
+            android:id="@+id/tv_error_date_of_birth">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/loginedit"        
+                android:hint="@string/dob"
+                android:inputType="date"
+                android:id="@+id/et_dob"
+                />
+        </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btn_save"
+        android:text="@string/Save"
+        android:textColor="@color/button"
+        android:background="@drawable/bt_shape"/>
+
+</LinearLayout>
+    </ScrollView>
+    </android.support.v7.widget.CardView>
+</FrameLayout>
